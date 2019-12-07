@@ -1,0 +1,39 @@
+"C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Арик\CLionProjects\lab_04
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2019.2.2/bin/cmake/win/share/cmake-3.14/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/РђСЂРёРє/CLionProjects/lab_04/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_7648c/fast 
+    C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_7648c.dir\build.make CMakeFiles/cmTC_7648c.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/в””РЃС€СЉ/CLionProjects/lab_04/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_7648c.dir/testCCompiler.c.obj
+    C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_7648c.dir\testCCompiler.c.obj   -c C:\Users\в•ЁР в•¤Рђв•Ёв••в•Ёв•‘\CLionProjects\lab_04\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: error: C:\Users\в•ЁР в•¤Рђв•Ёв••в•Ёв•‘\CLionProjects\lab_04\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7648c.dir\build.make:65: CMakeFiles/cmTC_7648c.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/в””РЃС€СЉ/CLionProjects/lab_04/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:120: cmTC_7648c/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/РђСЂРёРє/CLionProjects/lab_04/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/РђСЂРёРє/CLionProjects/lab_04/cmake-build-debug/CMakeFiles/CMakeError.log".
